@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>QQ注册</title>
+		<link rel="stylesheet" type="text/css" href="css/QQzhuce.css">
+		<link rel="icon" href="img/logo.ico" type="image/x-icon" />
+		<script src="js/jquery-3.1.0.js"></script>
+		<script src="js/QQzhuce.js"></script>
+		<!--<link href="./style/qqReg.css" rel="stylesheet">-->
+  
+	</head>
+
+	<body style="display: block; opacity: 1;">
+		<a class="logo" href="#">QQ</a>
+		<div class="side" style="background-image: url(img/01-1.jpg);"></div>
+		<div class="top">
+			<div class="item feedback">
+				<a href="#">意见反馈</a>
+			</div>
+			<div class="item language-entry">
+				<div>简体中文&nbsp;<img src="img/down.png"></div>
+				<ul style="display: none;">
+					<li>
+						<a href="#">繁體中文</a>
+					</li>
+					<li>
+						<a href="#">English</a>
+					</li>
+				</ul>
+			</div>
+			<div class="item lianghao">
+				<a class="lianghao-entry" href="#">
+					<div>QQ靓号</div><img src="img/logo3.png"></a>
+				<div class="lianghao-detail" style="display: none;">
+					<div class="upper">
+						<a href="#" class="search-icon">
+							<div class="search-icon-img"></div>
+						</a>
+						<div class="search"><label class="search-placeholder" for="lianghao-key"></label><input type="text" id="lianghao-key" placeholder='搜索QQ靓号，如“1992”,“520”'></div>
+					</div>
+					<div class="bottom">
+						<div class="suggest-detail">
+							<a href="#">生日</a>
+							<a href="#">星座</a>
+							<a href="#">爱情</a>
+							<a href="#">手机</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-wraper">
+			<div class="main">
+				<div class="form" autocomplete="off">
+					<div>
+						<div class="welcome">欢迎注册QQ</div>
+						<div class="header free-lianghao-entry">
+							<a href="#">免费靓号</a>
+						</div>
+						<div class="header">每一天，乐在沟通。</div>
+					</div>
+					<div style="display: none;">
+						<div class="welcome">QQ邮箱注册</div>
+						<div class="header">个性化QQ邮箱名称</div>
+					</div>
+					<div style="display: none;">
+						<div class="welcome">邮箱帐号注册QQ</div>
+						<div class="header qq-mail-entry">
+							<a href="#">创建QQ邮箱</a>
+						</div>
+						<div class="header">邮箱登录，便于记忆</div>
+					</div>
+					<div style="display: none;">
+						<div class="welcome">QQ免费靓号</div>
+						<div class="guide">
+							<p class="guide-title">注册指引：</p>
+							<p class="guide-item">1.注册完成后，
+								<a href="#" target="_blank">登录QQ手机版，完成激活</a>
+							</p>
+							<p class="guide-item">2.一周内未激活帐号，系统将自动回收</p>
+						</div>
+						<div class="lianghao-area">精品靓号<span class="lianghao-number"></span><span data-bind="text: lianghao_mean" class="lianghao-mean"></span>
+							<a href="#" class="change-lianghao">换一个</a>
+						</div>
+					</div>
+					<form method="post" onsubmit="return checkMsg()" style="width: 500px;">
+						<div class="face cen">
+							<table>
+								<tr>
+									<td><input type="text" class="input_spec" id="name" name="name" placeholder="昵称" /></td>
+								</tr>
+								<tr style="height: 20px;">
+									<td class="left font_comm"><span id="msg_name"></span><input type="hidden" name="flagName" id="flagName" value="false"/></td>
+									
+								</tr>
+								<tr>
+									<td><input type="password" class="input_spec" id="pass" name="pass" placeholder="密码" /></td>
+								</tr>
+								<tr style="height: 20px;">
+									<td class="left font_comm"><span id="msg_pass"></span><input type="hidden" name="flagPass" id="flagPass" value="false"/></td>
+								</tr>
+								<tr>
+									<td><input type="password" class="input_spec" id="rePass" placeholder="确认密码" /></td>
+								</tr>
+								<tr style="height: 20px;">
+									<td class="left font_comm"><span id="msg_rePass"></span><input type="hidden" name="flagRePass" id="flagRePass" value="false"/></td>
+								</tr>
+								<tr style="height: 50px;">
+									<td>
+										<input type="text" id="checkCode" class="input_checkCode margin_left_10" placeholder="验证码" />
+										<a href="#" id="as"><img src="images/ecta.jpg" id="myImg"></a>
+									</td>
+								</tr>
+								<tr style="height: 20px;">
+									<td class="left font_comm"><span id="msg_checkCode"></span><input type="hidden" name="flagCheckCode" id="flagCheckCode" value="false"/></td>
+								</tr>
+								<tr style="height: 40px;">
+									<td  class="left font_comm" colspan="2">
+										<p style="margin-left: 50px;"><input type="checkbox" id="zone_qq" class="input_comm" checked>ͬ<span style="margin-left: 10px;">同时开通QQ空间</span></p>
+									</td>
+								</tr>
+								<tr style="height: 40px;">
+									<td>
+										<p style="margin-left: 50px;"><input type="checkbox" id="server_qq"  class="input_comm" checked><span style="margin-left: 10px;">我已阅读并同意相关服务条款</span></p>
+									</td>
+								</tr>
+								<tr>
+									<td class="left" id="get_acc">
+										<input id="get_acc" type="button" class="submit" value="立即注册">
+									</td>
+								</tr>
+							</table>
+						</div>
+					</form>
+				</div>
+				
+				<div class="footer">Copyright <span>©</span> 1998-2018Tencent All Rights Reserved</div>
+				
+			</div>
+		</div>
+		
+	</body>
+
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<title>腾讯电脑管家 for Mac</title>
+		<link type="text/css" rel="stylesheet" href="css/shouye.css" />
+		<script type="text/javascript" src="js/jr/hm.js" ></script>
+		<script type="text/javascript" src="js/jr/hm_002.js" ></script>
+		<script type="text/javascript" src="js/jr/hm_003.js" ></script>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="layer/layer.js" ></script>
+	</head>
+
+	<body>
+		<header id="header">
+			<nav id="nav_v10" class="top_in">
+				<a href="shouye.html" class="logo"><img src="img/logo_2.png" /></a>
+				<div id="navline" style="width: 69px;left: 255px;"></div>
+				<ul id="nav">
+			<li class="top-nav-li"><a href="http://guanjia.qq.com/">首页</a></li>
+			<li class="top-nav-li"><a href="http://guanjia.qq.com/product/home/v12/" class="mutl">产品介绍<i></i></a><!-- style="padding: 0 20px" -->
+				<ul style="display: none;">
+					<li><a href="http://guanjia.qq.com/product/defense/" data-stats="new_main.aqfh">安全防护</a></li>
+					<li><a href="http://guanjia.qq.com/product/manage/" data-stats="new_main.glxl">管理效率</a></li>
+					<li><a href="xqy/xiangqingye1.html">电脑加速</a></li>
+					<li><a href="http://guanjia.qq.com/product/speedup/game/?ADTAG=web.gj_index.daohang_yxjs" data-stats="new_main.yxjs">游戏加速</a></li>
+					<li><a href="http://guanjia.qq.com/speed.html" data-stats="new_main.djjs">等级加速</a></li>
+					<li><a href="http://guanjia.qq.com/product/zhb/safe/" data-stats="new_main.zhbh">帐号保护</a></li>
+					<li><a href="http://guanjia.qq.com/product/gameassitant/?ADTAG=web.gj_index.daohang_dnjx" data-stats="new_main.syzs">手游助手</a></li>
+					<li><a href="http://guanjia.qq.com/product/zmzl/" data-stats="new_main.zmzl">桌面整理</a></li>
+					<li><a href="http://guanjia.qq.com/product/zjwd/" data-stats="new_main.zjwd">最近文档</a></li>
+					<!-- <li><a href="http://guanjia.qq.com/product/yxhz/">游戏盒子</a></li> -->
+				</ul>
+			</li>
+			<li class="top-nav-li"><a data-stats="new_main.nav4" href="http://guanjia.qq.com/news/n0/" class="mutl">安全资讯<i></i></a>
+				<ul style="display: none;">
+					<li><a href="http://guanjia.qq.com/special/s0/" data-stats="new_main.aqzt">安全专题</a></li>
+					<li><a href="http://guanjia.qq.com/about/events/" data-stats="new_main.gjdsj">管家大事记</a></li>
+					<li><a href="http://slab.qq.com/?ADTAG=refer.flag.from.gjwebonline" target="_blank" rel="nofollow" data-stats="new_main.lhsys">联合实验室</a></li>
+				</ul>
+			</li>
+			<li class="top-nav-li"><a data-stats="new_main.nav6" href="http://guanjia.qq.com/online_server/" class="mutl">在线安全<i></i></a>
+				<ul style="display: none;">
+					<li><a href="http://guanjia.qq.com/web_clinic/" data-stats="new_main.dnzs">电脑诊所</a></li>
+					<!--<li><a href="/learn/">安全学院</a></li>-->
+					<li><a href="http://guanjia.qq.com/online_server/report_url.html" data-stats="new_main.ssjb">申诉举报</a></li>
+					<li><a href="http://guanjia.qq.com/online_server/txwz/" data-stats="new_main.zpxx">诈骗信息查询</a></li>
+					<li><a href="http://guanjia.qq.com/online_server/webindex.html" data-stats="new_main.wzaq">网站安全检测</a></li>
+					<li><a href="http://guanjia.qq.com/online_server/pwd_safe.html" data-stats="new_main.mmaq">密码安全检测</a></li>
+					<li><a href="http://110.qq.com/" target="_blank" rel="nofollow" data-stats="new_main.aqfwpt">帐号安全查询</a></li>
+					<!--<li><a href="/online_server/account.html">Gmail检测 </a></li>-->
+				</ul>
+			</li>
+			<li class="top-nav-li"><a data-stats="new_main.nav3" href="http://guanjia.qq.com/user/" class="mutl">活动中心<i></i></a>
+				<ul style="display: none;">
+					<li><a href="http://guanjia.qq.com/user/gift.html" data-stats="new_main.dhlb">兑换礼包</a></li>
+					<li><a href="http://guanjia.qq.com/user/earn.html" data-stats="new_main.aqjb">赚安全金币</a></li>
+					<li><a href="http://guanjia.qq.com/user/subject.html" data-stats="new_main.zthd">专题活动</a></li>
+				</ul>
+			</li>
+			<li class="top-nav-li"><a data-stats="new_main.nav5" href="http://bbs.guanjia.qq.com/" target="_blank" class="last">论坛</a></li>
+		</ul>
+				<div calss="top_tool">
+					<a class="tlink mobile" href="#" rel="nofollow"></a>
+					<a class="tlink mac" href="#"></a>
+					<div class="nologin" id="nologin">
+						<img src="xqy/xiangqingye/css/img/bg_logo_bottom.png" style="height:35px; width: 35px;margin-top: 20px;"/>
+					</div>
+					
+				</div>
+			</nav>
+		</header>
+		<div class="main_wrap">
+			<div class="banner_wrap">
+				<div id="banner" class="banner" style="height: 496.048px; display: block;">
+					<p class="banner-download" style="right:auto;left:52%;top:61%;">
+					<a href="https://pm.myapp.com/invc/xfspeed/qqpcmgr/download/QQPCDownload1600.exe" style="margin-left:0;" class="banner_download png24" data-stats="new_main.gjdownload_1600"></a>
+					<span class=""><em style="font-style:normal;" class="">最新正式版：V12.11</em> &nbsp;&nbsp;<a href="xqy/xiangqingye2.html" title="电脑管家勒索病毒防御" target="_blank" class="">查看详情</a></span><span class=""></span></p>
+					<ul class="ui-sortable publish-slider publish-copy">
+					<li style="display: block; z-index: 1;" class="on"><img src="img/48fef04484fbbc0050036d611081c699.png" class="">
+						<p class="title">电脑管家 V 12.11</p>
+						<p id="more-features" class="" style="margin-bottom: -15px;"><br><span class="">急救箱、文档守护者、漏洞修复、诈骗信息查询4大安全能力再升级，</span><br><span class="">全面守护安全，让你更无所惧。</span></p>
+						<p style="bottom: 46%;" class=""></p>
+					</li>
+					<li style="z-index: 0; display: none;" class=""><img src="img/63df443c1f9a14af032f37927ee6143e.png" class="">
+						<p class="title">电脑管家 V 12.11</p>
+						<p id="more-features" class="" style=""><br><span class="">腾讯电脑管家全球首家发现潜伏17年的0day漏洞，该漏洞威胁全部Office版本，</span><br><span class="">请广大用户及时使用管家检测漏洞，防御攻击！</span></p>
+						<p style="bottom: 46%;" class=""></p>
+					</li>
+
+				</ul>
+				<div class="b_dot">
+					<a href="javascript:void(0);" class="on"></a>
+					<a href="javascript:void(0);" class=""></a>
+			
+				</div>
+			</div>
+
+				<div class="blink">
+					<a href="#" target="_blank" class=""><img src="img/1.png" class=""></a>
+					<a href="#" target="_blank" class=""><img src="img/2.png" class=""></a>
+					<a href="#" target="_blank" class=""><img src="img/3.png" class=""></a>
+					<a href="#" target="_blank" class=""><img src="img/4.png" class=""></a>
+					<a target="_blank" href="#" class=""><img src="img/6.png" class=""></a>
+					<a href="#" target="_blank" class=""><img src="img/7.png" class=""></a>
+					<a target="_blank" href="#" class=""><img src="img/5.png" class=""></a>
+					<a target="_blank" href="#" class="" title=""><img src="img/1dadbdf4363cc82e97691afd320c5a3e.png" class=""></a>
+					<a href="#" target="_blank" class=""><img src="img/c63c57e761a57d9fd193a10918d75fa4.png" class=""></a>
+				</div>
+
+			</div>
+
+			<div id="news_blocks">
+				<div class="news-block">
+
+					<div class="news-title">安全热点</div>
+					<div class="news-image">
+						<a href="http://guanjia.qq.com/act/brand/201712cjd/?ADTAG=innerenter.web.index.banner" class="news-img-wrapper" title="" target="_blank" data-stats="new_main.news1_pic"><img src="//s.pc.qq.com/pc/images/c5/9b/c59babb568e03b279698fde0c3511dad.png" alt="" class="">
+							<p class="">2017管家安全实力成绩单</p>
+						</a>
+					</div>
+
+					<div class="news-list">
+						<ul>
+							<li><i></i>
+								<a href="/news/n2/2265.html" target="_blank" data-stats="new_main.news1_0">管家重拳打击“艾莎门”等不良视频</a>
+							</li>
+							<li><i></i>
+								<a href="/news/n4/2264.html" target="_blank" data-stats="new_main.news1_1">2018年1月第3周舆情周报</a>
+							</li>
+							<li><i></i>
+								<a href="/news/n2/2263.html" target="_blank" data-stats="new_main.news1_2">精准打击网络黑产 守护者计划全面升级</a>
+							</li>
+							<li><i></i>
+								<a href="/news/n1/2262.html" target="_blank" data-stats="new_main.news1_3">2017年Q4季度安全报告</a>
+							</li>
+						</ul>
+						<a href="https://guanjia.qq.com/news/n2/" target="_blank" class="more-news" data-stats="new_main.news1_more">查看更多<i></i></a>
+					</div>
+				</div>
+				<div class="news-block">
+
+					<div class="news-title">病毒木马</div>
+					<div class="news-image">
+						<a href="https://guanjia.qq.com/avast/111/index.html?ADTAG=innerenter.web.safe.smallbanner" class="news-img-wrapper" data-stats="new_main.news2_pic" title="" target="_blank"><img src="//s.pc.qq.com/pc/images/77/0d/770dd271a0e5124fbef5155cd246c392.jpg" alt="" class="">
+							<p class="">警惕：微软高龄漏洞被利用</p>
+						</a>
+					</div>
+
+					<div class="news-list">
+						<ul>
+							<li><i></i>
+								<a href="/news/n3/2266.html" target="_blank" data-stats="new_main.news2_0">电脑管家：2017年顽固木马盘点报告</a>
+							</li>
+							<li><i></i>
+								<a href="/news/n5/2254.html" target="_blank" data-stats="new_main.news2_1"> 2018年01月微软重要安全更新汇总</a>
+							</li>
+							<li><i></i>
+								<a href="/news/n5/2253.html" target="_blank" data-stats="new_main.news2_2">2018年01月Flash漏洞月报</a>
+							</li>
+							<li><i></i>
+								<a href="/news/n5/2251.html" target="_blank" data-stats="new_main.news2_3">腾讯御见捕获CVE-2018-0802 0day攻击木马</a>
+							</li>
+						</ul>
+						<a href="https://guanjia.qq.com/news/n3/" target="_blank" class="more-news" data-stats="new_main.news2_more">查看更多<i></i></a>
+					</div>
+				</div>
+
+				<div class="news-block">
+					<div class="news-title">最新活动</div>
+					<div class="news-image">
+						<a href="http://guanjia.qq.com/act/brand/201801aq/?ADTAG=innerenter.web.index.banner" class="news-img-wrapper" title="" target="_blank" data-stats="new_main.news3_pic"><img src="//s.pc.qq.com/pc/images/23/77/2377bf2f9aeedd1ee1eaee8a6b839df9.jpg" alt="" class="">
+							<p class="">2017网络安全大事件盘点</p>
+						</a>
+					</div>
+					<div class="news-list">
+						<ul class="publish-sort ui-sortable">
+
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i></i>
+								<a href="https://guanjia.qq.com/act/brand/201801qq/?ADTAG=media.innerenter.gw" target="_blank" class="" data-stats="new_main.news3_0">探索未来的自己（腾出空，趣探索）</a>
+							</li>
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i class=""></i>
+								<a href="http://guanjia.qq.com/http/act/201710zh/?ADTAG=media.innerenter.gj_sy.wz" target="_blank" class="" data-stats="new_main.news3_1">文档守护者2.0发布，全面保护文档安全</a>
+							</li>
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i></i>
+								<a href="http://guanjia.qq.com/act/brand/201711clean/index.html?ADTAG=gj.web" target="_blank" class="" data-stats="new_main.news3_2">清垃圾做公益，助力先天性心脏病患儿</a>
+							</li>
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i></i>
+								<a href="https://guanjia.qq.com/product/wallpaper/?ADTAG=innerenter.gj.web" target="_blank" class="" data-stats="new_main.news3_3">非物质文化遗产——24节气壁纸全集</a>
+							</li>
+
+						</ul>
+						<a href="https://guanjia.qq.com/user/subject.html?tab=pinpai" target="_blank" class="more-news" data-stats="new_main.news3_more">查看更多<i class=""></i></a>
+					</div>
+				</div>
+
+				<div class="news-block">
+					<div class="news-title">产品动态</div>
+					<div class="news-image">
+						<a href="http://guanjia.qq.com/act/brand/201801safe/?ADTAG=innerenter.web.index.banner" class="news-img-wrapper" data-stats="new_main.news4_pic" title="" target="_blank"><img src="//s.pc.qq.com/pc/images/d0/30/d0306347348654d9b11b662fa4c9ab6c.png" alt="" class="">
+							<p class="">4大安全能力再升级</p>
+						</a>
+						<span class="news-desc-1">电脑管家最新版</span>
+						<span class="news-desc-2">2018 / 1 / 15</span>
+						<a href="http://dlied6.qq.com/invc/xfspeed/qqpcmgr/download/QQPCDownload1644.exe" class="news-download" data-stats="new_main.inner_download">下载体验</a>
+					</div>
+					<div class="news-list">
+						<ul class="publish-sort ui-sortable">
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i></i>
+								<a href="https://guanjia.qq.com/pr/ls/?ADTAG=media.innerenter.wenzilian" target="_blank" class="" data-stats="new_main.news4_0">文档守护者，全面防御勒索病毒</a>
+							</li>
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i class=""></i>
+								<a href="https://guanjia.qq.com/http/act/201709zmzl/index.html?ADTAG=gwyyw" target="_blank" class="" data-stats="new_main.news4_1">别让加班，成为遗憾——文档一键整理</a>
+							</li>
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i></i>
+								<a href="https://guanjia.qq.com/act/sem/201708repair/index.html" target="_blank" class="" data-stats="new_main.news4_2">文件修复工具，数据、文件、U盘修复，一键完成</a>
+							</li>
+							<li class="" style="position: relative; left: 0px; top: 0px;"><i class=""></i>
+								<a href="http://guanjia.qq.com/act/sem/201702iphone/" target="_blank" class="" data-stats="new_main.news4_3">iPhone换机助手，手机资料一键备份</a>
+							</li>
+
+						</ul>
+						<a href="https://guanjia.qq.com/user/subject.html?tab=blog" target="_blank" class="more-news" data-stats="new_main.news4_more">查看更多<i class=""></i></a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="func-list">
+				<div class="func-title">
+					<i class=""></i>产品功能-安全防护
+				</div>
+				<div class="func-card">
+					<a href="#" target="_blank" data-stats="new_main.icon.bdcs" title="">
+						<img src="img/df6c6bf7b7561395de723286387af694.png" alt="" class="bg-icon">
+						<img src="img/09ec6123b95bae5a3d11c507bc84910e.png" alt="" class="func-icon">
+						<p class="func-name">病毒查杀</p>
+						<p class="func-desc">自研杀毒引擎，能力领先国际屡获国际评测认证，荣耀加冕</p>
+					</a>
+				</div>
+				<div class="func-card">
+					<a href="https://guanjia.qq.com/product/defense/#p4" target="_blank" data-stats="new_main.icon.ldxf" title="">
+						<img src="img/df6c6bf7b7561395de723286387af694.png" alt="" class="bg-icon">
+						<img src="img/2a357752d595b99014b4dcc14140bfc7.png" alt="" class="func-icon">
+						<p class="func-name">漏洞修复</p>
+						<p class="func-desc">专业检测系统漏洞，提供及时有效的修复方案</p>
+					</a>
+				</div>
+				<div class="func-card">
+					<a href="https://guanjia.qq.com/product/defense/#p2" target="_blank" data-stats="new_main.icon.wjbh" title="">
+						<img src="img/df6c6bf7b7561395de723286387af694.png" alt="" class="bg-icon">
+						<img src="img/00a3ca4a0bec391d20badb689fd30269.png" alt="" class="func-icon">
+						<p class="func-name">文件保护</p>
+						<p class="func-desc">强大的云拦截引擎+文件自动备份技术，勒索病毒的克星</p>
+					</a>
+				</div>
+				<div class="func-card">
+					<a href="https://guanjia.qq.com/product/defense/index.html#p6" target="_blank" data-stats="new_main.icon.sbjc" title="">
+						<img src="img/df6c6bf7b7561395de723286387af694.png" alt="" class="bg-icon">
+						<img src="img/568c59c5839310680c1258d72aaca9cf.png" alt="" class="func-icon">
+						<p class="func-name">设备检测</p>
+						<p class="func-desc">外部接入设备立即检测，从源头防御拦截，阻断病毒传播</p>
+					</a>
+				</div>
+				<div class="func-card">
+					<a href="https://guanjia.qq.com/product/defense/#p5" target="_blank" data-stats="new_main.icon.xtfy" title="">
+						<img src="img/df6c6bf7b7561395de723286387af694.png" alt="" class="bg-icon">
+						<img src="img/61353e26a53e58253b342000ea618dde.png" alt="" class="func-icon">
+						<p class="func-name">系统防御</p>
+						<p class="func-desc">从系统底层到应用行为，全景监控防御，及时贴心提醒</p>
+					</a>
+				</div>
+				<div class="func-card">
+					<a href="https://guanjia.qq.com/product/defense/#p3" target="_blank" data-stats="new_main.icon.wlfy" title="">
+						<img src="img/df6c6bf7b7561395de723286387af694.png" alt="" class="bg-icon">
+						<img src="img/2cabed22e06cac29b5606edc7b897bea.png" alt="" class="func-icon">
+						<p class="func-name">网络防御</p>
+						<p class="func-desc">阻断恶意联网行为，网页安全浏览，QQ微信帐号全面保护</p>
+					</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="func-list">
+				<div class="func-title">
+					<i></i>产品功能-管理效率
+				</div>
+				<div class="manage-card" rel="http://guanjia.qq.com/product/home/v12/#page3">
+					<a href="https://guanjia.qq.com/product/manage/#p1" target="_blank" data-stats="new_main.icon.ljql" title="">
+						<img src="img/cda62fe1def57cb8c0fd40ab125007ee.png" alt="" class="bg-icon">
+						<img src="img/b11b689b9c7c1439e53d9f5dc5506c23.png" alt="" class="manage-icon">
+						<p class="manage-name">垃圾清理</p>
+						<p class="manage-desc">极致清理，流畅如新</p>
+					</a>
+				</div>
+				<div class="manage-card" rel="http://guanjia.qq.com/product/home/v12/#page4">
+					<a href="https://guanjia.qq.com/product/manage/#p2" target="_blank" data-stats="new_main.icon.dnjs" title="">
+						<img src="img/cda62fe1def57cb8c0fd40ab125007ee.png" alt="" class="bg-icon">
+						<img src="img/36e391ef0a353d803dacc29d21241c86.png" alt="" class="manage-icon">
+						<p class="manage-name">电脑加速</p>
+						<p class="manage-desc">一键加速，游戏快人一步</p>
+					</a>
+				</div>
+				<div class="manage-card" rel="http://guanjia.qq.com/product/home/v12/#page5">
+					<a href="https://guanjia.qq.com/product/manage/#p3" target="_blank" data-stats="new_main.icon.rjgl" title="">
+						<img src="img/cda62fe1def57cb8c0fd40ab125007ee.png" alt="" class="bg-icon">
+						<img src="img/7d67c836de74819e23a7a578a72f4bb7.png" alt="" class="manage-icon">
+						<p class="manage-name">软件管理</p>
+						<p class="manage-desc">软件升级、卸载、拦截轻松搞定</p>
+					</a>
+				</div>
+				<div class="manage-card" rel="http://guanjia.qq.com/product/home/v12/#page6">
+					<a href="https://guanjia.qq.com/product/manage/#p4" target="_blank" data-stats="new_main.icon.gjx" title="">
+						<img src="img/cda62fe1def57cb8c0fd40ab125007ee.png" alt="" class="bg-icon">
+						<img src="img/cbc32a995c04fb2b491b8788465b2681.png" alt="" class="manage-icon">
+						<p class="manage-name">工具箱</p>
+						<p class="manage-desc">集合众多电脑实用工具</p>
+					</a>
+				</div>
+				<div class="manage-card" rel="http://guanjia.qq.com/product/home/v12/#page7">
+					<a href="https://guanjia.qq.com/product/manage/#p5" target="_blank" data-stats="new_main.icon.zmzl" title="">
+						<img src="img/cda62fe1def57cb8c0fd40ab125007ee.png" alt="" class="bg-icon">
+						<img src="img/89303c4d73a7c02a44dc6d40b7e8d7aa.png" alt="" class="manage-icon">
+						<p class="manage-name">桌面整理</p>
+						<p class="manage-desc">一键整理，桌面井井有条</p>
+					</a>
+				</div>
+				<div class="manage-card" rel="http://guanjia.qq.com/product/home/v12/#page8">
+					<a href="https://guanjia.qq.com/product/manage/#p6" target="_blank" data-stats="new_main.icon.syzs" title="">
+						<img src="img/cda62fe1def57cb8c0fd40ab125007ee.png" alt="" class="bg-icon">
+						<img src="img/99d0eb1b2062c428c30a69ef93c5d88b.png" alt="" class="manage-icon">
+						<p class="manage-name">手游助手</p>
+						<p class="manage-desc">电脑玩手游，大屏更爽快</p>
+					</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="news zsnews">
+				<div class="title">
+					<a title=" " href="http://guanjia.qq.com/web_clinic/?ADTAG=media.innerenter.gj.top" class=""><i></i>电脑诊所</a>
+				</div>
+				<ul class="ui-sortable">
+					<li class="">
+						<a target="_blank" href="/web_clinic/s5/870.html">【软件硬件】xp系统双击盘符提示格式化</a>
+					</li>
+					<li class="">
+						<a target="_blank" href="/web_clinic/s3/869.html">【电脑安全】解决xp开机要输入用户密码</a>
+					</li>
+					<li class="">
+						<a target="_blank" href="/web_clinic/s2/868.html">【电脑故障】xp系统桌面所有图标都消失</a>
+					</li>
+					<li class="">
+						<a target="_blank" href="/web_clinic/s5/867.html">【软件硬件】win10双击盘符提示格式化</a>
+					</li>
+					<li class="">
+						<a target="_blank" href="/web_clinic/s7/866.html">【系统问题】xp中系统字体太大或太小</a>
+					</li>
+					<li class="">
+						<a target="_blank" href="/web_clinic/s4/865.html">【网络故障】xp系统IP地址与网络上其他地址有冲突</a>
+					</li>
+					<li class="">
+						<a target="_blank" href="/web_clinic/s8/864.html">【其他问题】xp打开淘宝提示安全证书过期</a>
+					</li>
+					<li class="">
+						<a target="_blank" href="/web_clinic/s2/863.html">【电脑故障】win10桌面所有图标都消失</a>
+
+					</li>
+				</ul>
+			</div>
+
+			<div class="main-gray">
+
+				<div class="hzhb">
+					<h3 class="">合作伙伴 </h3>
+					<ul class="ui-sortable">
+						<li class="on"><img loop="1" src="//pc1.gtimg.com/act/act/images/9740a782c4cfe45829470b91e6bb84b7.png" start="fileopen" class=""></li>
+						<li><img loop="1" src="//pc1.gtimg.com/act/act/images/694dbde5caf6786c077e67eb68a6a3ca.png" start="fileopen" class=""></li>
+						<li><img loop="1" src="//pc1.gtimg.com/act/act/images/655e0f14766f889645266aa0db92b80c.png" start="fileopen" class=""></li>
+						<li class="on"><img loop="1" src="//pc1.gtimg.com/act/act/images/b71cef3b66cb357a7bcefad72321bdf1.png" start="fileopen" class=""></li>
+						<li><img loop="1" src="//pc1.gtimg.com/act/act/images/e6dbc6ae846b876fbde6c722c9b8c3f0.png" start="fileopen" class=""></li>
+						<li><img loop="1" src="//s.pc.qq.com/pc/images/21/35/213530567d63b50a31796ec12205f0f1.png" start="fileopen" class=""></li>
+						<li class="on"><img loop="1" src="//pc1.gtimg.com/act/act/images/a23db98824d6f8873e70441c073a0dca.png" start="fileopen" class=""></li>
+						<li><img loop="1" src="//s.pc.qq.com/pc/images/26/d3/26d3457e3a6d9129bd3ff39c3d7d8722.png" start="fileopen" class=""></li>
+						<a href="http://guanjia.qq.com/market.html" target="_blank" class="">合作申请&gt;&gt;</a>
+					</ul>
+				</div>
+
+				<div class="link">
+					<h3 class="">友情连接 </h3>
+					<ul class="ui-sortable publish-copy">
+						<li style="">
+							<a title="搜狗下载" href="http://xiazai.sogou.com/index.html?e=1982" target="_blank" data-stats="link. oneplus" class="">搜狗下载</a>
+						</li>
+						<li style="">
+							<a title="蓝钻" href="http://gamevip.qq.com/" target="_blank" data-stats="link. gamevip" class="">蓝钻</a>
+						</li>
+						<li>
+							<a title="腾讯课堂" href="http://ke.qq.com?from=103" target="_blank" data-stats="link. ketang" class="">腾讯课堂</a>
+						</li>
+						<li>
+							<a title="腾讯手机管家" href="http://m.qq.com/" target="_blank" data-stats="link.msm" class="">腾讯手机管家</a>
+						</li>
+						<li>
+							<a title="Global" href="http://www.pcmgr-global.com/" target="_blank" data-stats="link.msm" class="">Global</a>
+						</li>
+						<li>
+							<a title="安卓手机软件" href="http://www.eoemarket.com/" target="_blank" data-stats="link.android" class="">安卓手机软件</a>
+						</li>
+						<li>
+							<a title="腾讯视频" href="http://v.qq.com/" target="_blank" data-stats="link.vqq" class="">腾讯视频</a>
+						</li>
+						<li>
+							<a title="应用宝" href="http://sj.qq.com/" target="_blank" data-stats="link.sj" class="">应用宝</a>
+						</li>
+						<li>
+							<a title="腾讯网 " href="http://www.qq.com/" target="_blank" data-stats="link.qq" class="">腾讯网</a>
+						</li>
+						<li>
+							<a title="腾讯软件中心" href="http://pc.qq.com/" target="_blank" data-stats="link.pc" class="">腾讯软件中心</a>
+						</li>
+						<li>
+							<a title="软件管理" href="http://soft.qq.com/" target="_blank" data-stats="link.qq" class="">软件管理</a>
+						</li>
+						<li>
+							<a title="广点通" href="http://e.qq.com/" target="_blank" data-stats="link.gdt" class="">广点通</a>
+						</li>
+						<li>
+							<a title="腾爱•糖大夫" href="http://tdf.qq.com/" target="_blank" data-stats="link.tdf" class="">腾爱•糖大夫</a>
+						</li>
+						<li>
+							<a title="腾讯云" href="https://cloud.tencent.com/?fromSource=gwzcw.760878.760878.760878" target="_blank" data-stats="link.qcloud" class="">腾讯云</a>
+						</li>
+						<li>
+							<a title="QQ音乐" href="http://y.qq.com/" target="_blank" data-stats="link.qqmusic" class="">QQ音乐</a>
+						</li>
+						<li>
+							<a title="iTools 助手" href="http://www.itools.cn/" target="_blank" data-stats="link.itools" class="">iTools 助手</a>
+						</li>
+						<li>
+							<a title="全民WIFI" href="http://wifi.qq.com/" target="_blank" data-stats="link.wifi" class="">全民WIFI </a>
+						</li>
+						<li>
+							<a title="快玩游戏" href="http://www.teeqee.com/" target="_blank" data-stats="link.teeqee" class="">快玩游戏 </a>
+						</li>
+						<li>
+							<a title="应用汇" href="http://www.appchina.com/" target="_blank" data-stats="link.appchina" class="">应用汇 </a>
+						</li>
+						<li>
+							<a title="rom之家 " href="http://www.romzhijia.net/" target="_blank" data-stats="link.romzhijia" class="">rom之家 </a>
+						</li>
+						<li>
+							<a title="A5站长网 " href="http://www.admin5.com/" target="_blank" data-stats="link.admin5" class="">A5站长网 </a>
+						</li>
+						<li>
+							<a title="ZOL下载频道 " href="http://xiazai.zol.com.cn/" target="_blank" data-stats="link.zol" class="">ZOL下载频道 </a>
+						</li>
+						<li>
+							<a title="IT之家" href="http://www.ithome.com/" target="_blank" data-stats="link.ithome" class="">IT之家 </a>
+						</li>
+						<li>
+							<a title="太平洋电脑网" href="http://www.pconline.com.cn/" target="_blank" data-stats="link.pconline" class="">太平洋电脑网 </a>
+						</li>
+						<li>
+							<a title="多特软件站" href="http://www.duote.com" target="_blank" data-stats="link. duote" class="">多特软件站</a>
+						</li>
+
+						<li>
+							<a title="QQ空间手机版" href="http://z.qzone.com/" target="_blank" data-stats="link. qzone" class="">QQ空间手机版</a>
+						</li>
+						<li>
+							<a title="腾讯微云" href="http://m.qzone.com/l?g=1538" target="_blank" data-stats="link. qzone1538" class="">腾讯微云</a>
+						</li>
+						<li>
+							<a title="一加手机" href="http://www.oneplusbbs.com/" target="_blank" data-stats="link. oneplus" class="">一加手机</a>
+						</li>
+						<li>
+							<a title="亿智蘑菇" href="http://www.yzmg.com/" target="_blank" data-stats="link. yzmg" class="">亿智蘑菇</a>
+						</li>
+						<li>
+							<a title="来电" href="http://laidian.qq.com/" target="_blank" data-stats="link. laidian" class="">来电</a>
+						</li>
+						<li>
+							<a title="这很神价" href=" http://mmm.qq.com/" target="_blank" data-stats="link. mmm" class="">这很神价</a>
+						</li>
+						<li>
+							<a title="腾讯安全服务平台" href=" http://110.qq.com/" target="_blank" data-stats="link. aqfwpt" class="">腾讯安全服务平台</a>
+						</li>
+					</ul>
+					<ul></ul>
+				</div>
+
+			</div>
+
+		</div>
+		<script type="text/javascript" src="js/tj.js" ></script>
+		<script type="text/javascript" src="js/GjComm.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<div id="loginBox">
+			<div class="layui-layer-title">帐号密码登录<br/><span style="font-size: 16px;">推荐使用<a>快速安全登录</a>，防止盗号。</span></div>
+			<div class="login-head"><a href="#"></a></div>
+   			<div class="login-item"><input  type="text" id="InputUsername" placeholder="支持QQ号/邮箱/手机号登录"  style="margin-bottom: 10px;"/>
+    		<input  type="password" id="InputUserPwd" placeholder="密码"/></div>
+    		<div class="login-item1"><a href="index.html" onclick="Login()" >登录</a><br/></div>
+    		
+    		<div class="login-foot"><br />
+    			<a>忘了密码？</a><span>丨</span>
+    			<a href="注册/QQzhuce.html">注册账号</a><span>丨</span>
+    			<a>意见反馈</a>
+    		</div>
+		</div>
+		<div id="loginBox2">
+			<div class="layui-layer-title"></div>
+			<div class=""></div>
+		</div>
+	</body>
+</html>

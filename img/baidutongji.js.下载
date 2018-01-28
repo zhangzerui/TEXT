@@ -1,0 +1,30 @@
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?84fce32f234f351c529de5d7ffc23f3a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?7f5950bea783b73c45a37e835d0daea4";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+
+var _hmt = _hmt || [];
+
+(function() {
+
+    var hm = document.createElement("script");
+
+    hm.src = "https://hm.baidu.com/hm.js?bbb5dc2f050611a5afe8d4b2ba5b0ad7";
+
+    var s = document.getElementsByTagName("script")[0];
+
+    s.parentNode.insertBefore(hm, s);
+
+})();
